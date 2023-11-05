@@ -40,6 +40,22 @@ body {
     background-color: white;
     color: black;
   }
+
+  .buy-button {
+    text-decoration: none;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border: 2px solid white;
+    transition: color 0.5s, background-color 0.5s;
+    cursor: pointer;
+  }
+  
+  #buy-button:hover {
+    background-color: white;
+    color: black;
+  }
   
   main .about-button {
     text-decoration: none;
@@ -55,6 +71,19 @@ body {
     color: black;
   }
   
+  main #buy-button {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    padding: 0.5rem;
+    border: 2px solid white;
+    transition: color 0.5s, background-color 0.5s;
+  }
+  
+  main #buy-button:hover {
+    background-color: white;
+    color: black;
+  }
   
   @media (max-width: 1024px) {
     main {
